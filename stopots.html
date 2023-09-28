@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stopots Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Stopots Game</h1>
+        </div>
+        <div class="content">
+            <div class="screen" id="letter-screen">
+                <h2>Sorteio da Letra</h2>
+                <p>A letra sorteada é: <span id="letter">-</span></p>
+                <button id="start-game-button">Iniciar Jogo</button>
+            </div>
+            <div class="screen" id="rules-screen">
+                <h2>Regras do Jogo</h2>
+                <ul>
+                    <li>Nome: <span id="name-rule">-</span></li>
+                    <li>CEP: <span id="cep-rule">-</span></li>
+                    <li>Minha Sogra É: <span id="sogra-rule">-</span></li>
+                    <li>Fruta: <span id="fruta-rule">-</span></li>
+                    <li>Carro: <span id="carro-rule">-</span></li>
+                    <!-- Adicione mais regras aqui -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="column-inputs" id="column-inputs">
+        <!-- Aqui serão exibidos os campos de entrada para cada coluna -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
